@@ -1,0 +1,37 @@
+
+.parent-container{
+    height: 100vh;
+    padding: 0px 5%;
+}
+.container {
+    position: relative;
+    height: 400px;
+}
+
+.cover-image{
+    position: absolute;
+    width: 100%;
+    
+}
+
+.cover-image img {
+    border-radius: 10px 10px 0px 0px;
+    object-fit: contain;
+    width: 100%;
+}
+
+.profile-image{
+    position: absolute;
+    height: 30%;
+    bottom: 50px;
+    left: 5%;
+}
+
+.profile-image img {
+    height: 150px;
+    width: 150px;
+    border: 5px solid white;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
